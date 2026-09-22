@@ -1,0 +1,20 @@
+/* Page-level styles for the demo host page.
+   Component-scoped styles now live inside the shadow DOM in picture.js. */
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: white;
+}
+
+picture-container {
+  --max-width: 180px;
+  --max-height: 180px;
+}
+

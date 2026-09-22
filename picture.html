@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Picture Container</title>
+  <link rel="stylesheet" href="pic.css" />
+</head>
+<body>
+  <picture-container
+    id="myPicture"
+    initial="RB"
+    camera-enabled
+    activity-state="none"
+  ></picture-container>
+
+  <script type="module" src="picture.js"></script>
+  <script type="module">
+    const pic = document.getElementById("myPicture");
+
+    // pic.addEventListener("pic-click", () => console.log("Picture clicked"));
+    // pic.addEventListener("picinfo-change", (e) => console.log("picInfo", e.detail));
+    // pic.addEventListener("placeholder-change", (e) => console.log("placeholder", e.detail));
+    // pic.addEventListener("liste-mise-a-jour", (e) => console.log("liste-mise-a-jour", e.detail));
+  </script>
+</body>
+</html>
+
